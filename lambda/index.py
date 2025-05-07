@@ -24,7 +24,7 @@ import urllib.error   # HTTPエラー処理用にインポート
 
 # --- ここからカスタムAPI用の設定 ---
 # 独自のチャットボットAPIエンドポイントを環境変数から取得
-CUSTOM_CHATBOT_API_ENDPOINT = "https://d313-34-125-20-253.ngrok-free.app/generate"
+CUSTOM_CHATBOT_API_ENDPOINT = "https://1d50-34-125-140-190.ngrok-free.app/generate"
 if not CUSTOM_CHATBOT_API_ENDPOINT:
     # エンドポイントが設定されていない場合はエラーにするか、デフォルト値を設定
     # raise ValueError("環境変数 CUSTOM_CHATBOT_API_ENDPOINT が設定されていません。")
